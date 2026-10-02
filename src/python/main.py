@@ -3,7 +3,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, Tabl
 from reportlab.lib.styles import getSampleStyleSheet 
 from reportlab.lib import colors
 
-def gerar_pdf(filename="projetoAula06/src/assets/relatorio.pdf"):
+def gerar_pdf(filename="src/python/relatorio.pdf"):
     
     doc = SimpleDocTemplate(filename, pagesize = letter, rightMargin = 40, topMargin= 40, bottomMargin= 40)
     
